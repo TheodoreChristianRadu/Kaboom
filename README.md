@@ -1,2 +1,2 @@
 # Kaboom
-Dedicated to Linkus7
+A well-praised battleship game now brought to OpenGL.
