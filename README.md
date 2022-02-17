@@ -1,2 +1,2 @@
 # Kaboom
-A well-praised battleship game now brought to OpenGL.
+A well-praised battleship game now brought to OpenGL
