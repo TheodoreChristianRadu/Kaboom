@@ -67,11 +67,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="glut\glut32.lib" />
-  </ItemGroup>
-  <ItemGroup>
-    <CopyFileToFolders Include="glut32.dll" />
     <CopyFileToFolders Include="Rules.cfg" />
+    <CopyFileToFolders Include="glut\glut32.dll" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Textures\Boat.png">

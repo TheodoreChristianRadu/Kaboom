@@ -69,15 +69,9 @@
     <ClInclude Include="Vector.h" />
   </ItemGroup>
   <ItemGroup>
-    <CopyFileToFolders Include="glut32.dll">
-      <FileType>Document</FileType>
-    </CopyFileToFolders>
     <CopyFileToFolders Include="Rules.cfg">
       <FileType>Document</FileType>
     </CopyFileToFolders>
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="glut\glut32.lib" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Textures\*">
@@ -100,6 +94,11 @@
     <Media Include="Sounds\Kaboom.wav" />
     <Media Include="Sounds\Sea.wav" />
     <Media Include="Sounds\Sploosh.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="glut\glut32.dll">
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
